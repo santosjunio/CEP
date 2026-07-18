@@ -36,3 +36,7 @@
 
   /* --- LINE HEIGHT --- */
   --line-height-auto: auto;}
+
+a{
+    text-decoration: none;
+  }
