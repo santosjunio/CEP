@@ -1,0 +1,38 @@
+/* ==========================================================================
+   RESET PADRÃO
+   ========================================================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ==========================================================================
+   VARIÁVEIS GLOBAIS
+   ========================================================================== */
+:root {
+  /* --- CORES SECUNDÁRIAS --- */
+  --secondary-white: #FFFFFF;
+  --secondary-black: #333231;
+
+  /* --- CORES PRIMÁRIAS --- */
+  --primary-green: #B0CB1F;
+
+  /* --- FONT FAMILY --- */
+  --font-family-inter: 'Inter', sans-serif;
+
+  /* --- TIPOGRAFIA (FONT SIZES) --- */
+  --font-size-body: 16px;
+  --font-size-button: 16px;
+  --font-size-h1: 60px;
+  --font-size-h2: 48px;
+  --font-size-h3: 40px;
+  --font-size-h4: 25px;
+
+  /* --- PESOS DE FONTE (FONT WEIGHTS) --- */
+  --font-weight-regular: 400; /* Usado no body */
+  --font-weight-medium: 500;  /* Usado no button */
+  --font-weight-bold: 700;    /* Usado nos headlines (h1 a h4) */
+
+  /* --- LINE HEIGHT --- */
+  --line-height-auto: auto;}
