@@ -51,5 +51,148 @@
   color: var(--secondary-black);
   background-color: var(--primary-green);
   padding: 10px 32px;
-  border-radius: 8px;
+  border-radius: 20px 0px;
+}
+
+.content {
+  width: 1440px;
+  margin: 0 auto;
+  background-color: var(--secondary-white);
+}
+
+.product-section {
+  width: 1440px;
+  padding: 60px 0px;
+}
+
+.product-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.product-gallery {
+  width: 550px;
+}
+
+.notebook-image {
+  display: block;
+  width: 500px;
+  height: auto;
+}
+
+.product-info {
+  width: 600px;
+}
+
+.rating-block {
+  margin-bottom: 16px;
+}
+
+.rating-avl {
+  color: #FF9900;
+  font-size: 14px;
+}
+
+.stars-text {
+  font-family: var(--font-family-inter);
+  font-size: 14px;
+  font-weight: var(--font-weight-bold);
+  color: var(--secondary-black);
+  margin-left: 8px;
+}
+
+.total-ratings {
+  font-family: var(--font-family-inter);
+  font-size: 14px;
+  font-weight: var(--font-weight-regular);
+  color: #777573;
+  margin-left: 4px;
+}
+
+.product-title {
+  font-family: var(--font-family-inter);
+  font-size: 18px;
+  font-weight: var(--font-weight-regular);
+  color: var(--secondary-black);
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+
+.price-block {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.current-price {
+  font-family: var(--font-family-inter);
+  font-size: 28px;
+  font-weight: var(--font-weight-bold);
+  color: #2D9CDB;
+}
+
+.old-price {
+  font-family: var(--font-family-inter);
+  font-size: 14px;
+  font-weight: var(--font-weight-regular);
+  color: #777573;
+}
+
+.discount-tag {
+  font-family: var(--font-family-inter);
+  font-size: 14px;
+  font-weight: var(--font-weight-bold);
+  color: var(--secondary-black);
+  background-color: #F2C94C;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.color-selection {
+  margin-bottom: 32px;
+}
+
+.color-text{
+  display: block;
+  font-family: var(--font-family-inter);
+  font-size: 14px;
+  font-weight: var(--font-weight-regular);
+  color: var(--secondary-black);
+  margin-bottom: 8px;
+}
+
+.color-options {
+  display: flex;
+  gap: 12px;
+}
+
+.color-circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  border: 1px solid #D3D3D3;
+  cursor: pointer;
+}
+
+.dark-color {
+  background-color: #C0C0C0;
+  border: 2px solid var(--secondary-black);
+}
+
+.light-color {
+  background-color: #E0E0E0;
+}
+
+.car-button {
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-button);
+  font-weight: var(--font-weight-medium);
+  color: var(--secondary-black);
+  background-color: var(--primary-green);
+  padding: 14px 40px;
+  border-radius: 20px 0px;
 }
