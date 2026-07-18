@@ -1,1 +1,55 @@
 @import url(global.css);
+
+
+
+.main-header {
+  margin: 0 auto; 
+  background-color: var(--secondary-white);
+  padding: 20px 0px; 
+}
+
+.header-container {
+  width: 1200px; 
+  margin: 0 auto;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.logo img {
+  display: block;
+  max-height: 60px;
+  width: auto;
+}
+
+
+.nav-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+}
+
+.nav-menu a {
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-medium);
+  color: var(--secondary-black);
+
+}
+
+.nav-menu a:hover {
+  color: var(--primary-green);
+}
+
+
+.btn-login {
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-button);
+  font-weight: var(--font-weight-medium);
+  color: var(--secondary-black);
+  background-color: var(--primary-green);
+  padding: 10px 32px;
+  border-radius: 8px;
+}
